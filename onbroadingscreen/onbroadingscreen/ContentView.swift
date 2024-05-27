@@ -169,6 +169,7 @@ struct ScreenView:View {
                         .background(Color("mainColor"))
                         .cornerRadius(40)
                         .padding(.horizontal,16)
+                        
                 }else {
                     Text("Next")
                         .fontWeight(.semibold)
